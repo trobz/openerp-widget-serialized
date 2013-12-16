@@ -33,7 +33,7 @@ Form widget for `fields.serialized` type, providing a friendly JSON editor based
 
 **Code edit mode**
 
-![OpenERP serialized widget: code edit mode](https://raw.github.com/trobz/openerp-widget-serialized/master/doc/widget_serialized_view.png "Code edit mode")
+![OpenERP serialized widget: code edit mode](https://raw.github.com/trobz/openerp-widget-serialized/master/doc/widget_serialized_code.png "Code edit mode")
 
 
 ## Dependencies
