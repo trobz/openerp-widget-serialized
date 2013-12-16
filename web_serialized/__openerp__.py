@@ -7,7 +7,7 @@
 Add support for fields.serialized in from view with a new widget: "serialized"
     """,
     'author': 'Trobz',
-    'website': 'http://www.trobz.com',
+    'website': 'https://github.com/trobz/openerp-widget-serialized',
     'depends': [
         'web_unleashed'
     ],
