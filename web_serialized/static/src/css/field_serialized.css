@@ -2,7 +2,6 @@
     display: none;
 }
 
-
 .jsoneditor button.switch-mode.tree,
 .jsoneditor button.switch-mode.code {
     background-image: none !important;
@@ -14,7 +13,6 @@
     z-index: 1;
 }
 
-
 .code .jsoneditor .outer,
 .code .jsoneditor textarea {
     min-height: 200px;
@@ -25,4 +23,31 @@
     border: 1px solid #900;
     padding: 10px;
     margin: 5px 0px;
+}
+
+/* override to avoid conflict with Odoo default style */
+
+.jsoneditor-contextmenu ul li ul {
+	box-shadow: none !important;
+}
+
+.jsoneditor-contextmenu ul li button.default {
+	width: 76px;
+}
+
+div.jsoneditor div.menu button {
+	background-color: transparent !important;
+	background-image: url('../../lib/jsoneditor/img/jsoneditor-icons.png') !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.jsoneditor button.expanded {	background-position: 0 -72px !important; }
+.jsoneditor button.collapsed {	background-position: 0 -48px !important; }
+
+.jsoneditor button,
+.jsoneditor button:focus {
+	box-shadow: none !important;
+	border: none !important;
+	outline: none !important;
 }
