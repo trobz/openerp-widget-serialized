@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-        <template id="assets_backend" name="web_serialized assets" inherit_id="web.assets_backend">
+        <template id="assets_backend" name="web_serialized assets" inherit_id="web_unleashed.assets_backend">
             <xpath expr="//script[last()]" position="after">
                 
                 <link rel="stylesheet" href="/web_serialized/static/lib/jsoneditor/jsoneditor.css"/>
@@ -16,4 +16,3 @@
 
     </data>
 </openerp>
-
