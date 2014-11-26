@@ -41,5 +41,11 @@ Form widget for `fields.serialized` type, providing a friendly JSON editor based
 This widget depend on [web unleashed](https://github.com/trobz/openerp-web-unleashed) module, helping on managing
 the initialization of views and widgets on OpenERP.
 
+Odoo 8.0 doesn't support `fields.serialized` anymore, you have to install the server wide module `base_field_serialized` from OCA [server-tools][1] repository.
+
+Note: 
+
 It's not a hard dependencies and you can refactor the code and remove this dependencies by change the way the widget is
-initialized if you really don't need web unleashed (but I may have a look at features provided by unleashed first ;)).
+initialized if you really don't need web unleashed (but you may have a look at features provided by unleashed first ;)).
+
+  [1]: https://github.com/OCA/server-tools/
