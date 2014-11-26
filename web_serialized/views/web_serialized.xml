@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="assets_backend" name="web_serialized assets" inherit_id="web.assets_backend">
+            <xpath expr="//script[last()]" position="after">
+                
+                <link rel="stylesheet" href="/web_serialized/static/lib/jsoneditor/jsoneditor.css"/>
+                <link rel="stylesheet" href="/web_serialized/static/src/css/field_serialized.css"/>
+       
+                <script type="text/javascript" src="/web_serialized/static/lib/jsoneditor/lib/jsonlint/jsonlint.js"></script>
+                <script type="text/javascript" src="/web_serialized/static/lib/jsoneditor/jsoneditor.js"></script>
+                <script type="text/javascript" src="/web_serialized/static/src/js/field_serialized.js"></script>
+                
+            </xpath>
+        </template>
+
+    </data>
+</openerp>
+
